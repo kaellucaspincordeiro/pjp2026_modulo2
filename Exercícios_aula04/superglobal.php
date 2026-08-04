@@ -12,11 +12,11 @@
 
     var_dump($_SERVER);
     echo '<br><br>';
-    echo 'IP: '.$_SERVER['SERVER_ADDR'];
+    echo 'IP: '.$_SERVER['REMOTE_ADDR'];
     echo '<br><br>';
     echo 'Nome do Arquivo Atual: '.basename($_SERVER['SCRIPT_NAME']);
     echo '<br><br>';
-    echo 'URL: '.$_SERVER['SERVER_ADDR'].''.$_SERVER['SCRIPT_NAME'];
+    echo 'URL: '.$_SERVER['REMOTE_ADDR'].''.$_SERVER['SCRIPT_NAME'];
     
 
 ?>
