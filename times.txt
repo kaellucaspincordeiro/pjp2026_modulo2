@@ -1,0 +1,1 @@
+{"time":"Corinthians","posicao":1,"pontos":81,"retrospecto":["E","D","V"]}{"time":"Sport","posicao":2,"pontos":69,"retrospecto":["V","V","E"]}{"time":"Santos","posicao":3,"pontos":58,"retrospecto":["D","D","E"]}{"time":"Cruzeiro","posicao":4,"pontos":52,"retrospecto":["E","V","E"]}{"time":"Internacional","posicao":5,"pontos":50,"retrospecto":["D","V","E"]}
