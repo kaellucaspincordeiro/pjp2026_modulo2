@@ -50,7 +50,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     $nome = $_POST["nome"];
 
-    echo "Boa noite, ".$nome;
+    echo "Boa noite, ".$nome."!";
 
     }
 
