@@ -4,6 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Desafio PHP: Times</title>
+    <style>
+        table, th, td {
+            border: 2px solid black;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 8px;
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
     <?php
@@ -32,8 +42,25 @@
         FILE_PUT_CONTENTS('times.txt', $sConteudo);
 
         //Letra D
-        
-
+        $sConteudo = trim(FILE_GET_CONTENTS('times.txt'));
     ?>
+    <br><br>
+    <table>
+        <tr>
+            <th>Time</th>
+            <th>Posição</th>
+            <th>Pontos</th>
+            <th>Retrospecto</th>
+        </tr>
+        <?php foreach($aTimes as $time){
+        echo '<tr>
+               <td>'.$time['time'].'</td>
+               <td>'.$time['posicao'].'</td>
+               <td>'.$time['pontos'].'</td>
+               <td>'.implode(', ', $time['retrospecto']).'</td>
+             </tr>';     
+        }
+       ?>
+    </table>
 </body>
 </html>
