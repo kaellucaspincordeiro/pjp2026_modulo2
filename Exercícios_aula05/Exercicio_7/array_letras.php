@@ -11,7 +11,7 @@
         define('MAIUSCULAS', 1);
         define('MINUSCULAS', 2);
 
-        function caixasArray(array $caixa, int $opcao): array
+        function caixasArray(array $caixa, int $opcao)
         {
             $resultadoArray = [];
 
